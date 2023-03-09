@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign in Page</title>
+    <link rel="stylesheet" type="text/css" href="SignIn.css" />
+    <button type="button" onclick="login()">
+        <a href="HomePage.html">Sign in</a>
+      </button>
+       
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign in</h1>
+      <label for="username"><b>Username</b></label>
+      <input
+        type="text"
+        placeholder="Enter Username"
+        name="username"
+        id="username"
+        required
+      />
+
+      <label for="password"><b>Password</b></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="password"
+        id="password"
+        required
+      />
+
+      <button type="button" onclick="login()">Sign in</button>
+    </div>
+
+    <script src="SignIn.js"></script>
+  
+  </body>
+</html>

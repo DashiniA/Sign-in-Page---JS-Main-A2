@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="HomePage.css" />
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome, <span id="username"></span>!</h1>
+		<button type="button" onclick="logout()">Sign out</button>
+
+		<hr>
+
+		<h2>Add User</h2>
+		<label for="new-username"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" name="new-username" id="new-username" required>
+
+		<label for="new-password"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="new-password" id="new-password" required>
+
+<button type="button" onclick="createUser()">Create User</button>
+
+
+</div>
+
+<script src="HomePage.js"></script>
+</body>
+</html>
